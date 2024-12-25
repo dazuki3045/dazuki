@@ -1,0 +1,51 @@
+body {
+    background-color: darkgray;
+}
+.main {
+    background-color: white;
+    width: 500px;
+    height: 470px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+img {
+    width: 75px;
+    height: 75px;
+    padding-top: 60px;
+}
+h1  {
+    font-size: 16px;
+}
+p {
+    color: grey;
+}
+.blocks {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+span {
+    justify-content: center;
+    align-content: center;
+    width: 66px;
+    height: 66px;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+    color: green;
+    font-size: 48px;
+}
+button {
+    background-color: green;
+    width: 225px;
+    height: 50px;
+    color: white;
+    font-size: 24px;
+    border: 3px solid lightgreen;
+}
